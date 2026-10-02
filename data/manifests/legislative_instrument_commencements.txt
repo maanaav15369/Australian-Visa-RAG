@@ -1,0 +1,176 @@
+
+===== F2026L00120_legislative_instrument.txt =====
+38:               2       Commencement.............................................................................................................1
+39-               3       Authority .......................................................................................................................1
+40-               4       Schedules.......................................................................................................................1
+41-
+42-Schedule 1—Repeals                                                                                                                                      2
+43-         Migration Agents Regulations 1998                                                                                                              2
+44-
+45-Schedule 2—Consequential amendments                                                                                                                     3
+46-         Migration (Migration Agents Code of Conduct) Regulations 2021                                                                                  3
+47-         Migration Regulations 1994                                                                                                                     3
+48-
+49-
+50-
+--
+62:2 Commencement
+63-        (1) Each provision of this instrument specified in column 1 of the table commences,
+64-            or is taken to have commenced, in accordance with column 2 of the table. Any
+65-            other statement in column 2 has effect according to its terms.
+66-
+67: Commencement information
+
+===== F2026L00163_legislative_instrument.txt =====
+36:               2       Commencement.............................................................................................................1
+37-               3       Authority .......................................................................................................................1
+38-               4       Schedules.......................................................................................................................1
+39-
+40-Schedule 1—Amendments                                                                                                                                   2
+41-         Migration Regulations 1994                                                                                                                     2
+42-
+43-
+44-
+45-
+46-                      Migration Amendment (Temporary Graduate Visa Application Charge)                                                                       i
+47-                                             Regulations 2026
+48-OPC67628 - A
+--
+56:2 Commencement
+57-        (1) Each provision of this instrument specified in column 1 of the table commences,
+58-            or is taken to have commenced, in accordance with column 2 of the table. Any
+59-            other statement in column 2 has effect according to its terms.
+60-
+61:  Commencement information
+
+===== F2026L00221_legislative_instrument.txt =====
+37:               2       Commencement.............................................................................................................1
+38-               3       Authority .......................................................................................................................1
+39-               4       Schedules.......................................................................................................................1
+40-
+41-Schedule 1—Amendments                                                                                                                                   2
+42-         Migration Regulations 1994                                                                                                                     2
+43-
+44-
+45-
+46-
+47-                      Migration Amendment (Training Visas—Sponsorship Requirements)                                                                     i
+48-                                            Regulations 2026
+49-OPC67626 - A
+--
+57:2 Commencement
+58-        (1) Each provision of this instrument specified in column 1 of the table commences,
+59-            or is taken to have commenced, in accordance with column 2 of the table. Any
+60-            other statement in column 2 has effect according to its terms.
+61-
+62: Commencement information
+
+===== F2026L00224_legislative_instrument.txt =====
+36:               2        Commencement.............................................................................................................1
+37-               3        Authority .......................................................................................................................1
+38-               4        Schedules.......................................................................................................................1
+39-
+40-Schedule 1—Repeals                                                                                                                                       2
+41-         Air Navigation Regulation 2016                                                                                                                  2
+42-
+43-Schedule 2—Amendments                                                                                                                                    3
+44-         Air Navigation (Aircraft Engine Emissions) Regulations                                                                                          3
+45-         Air Navigation (Aircraft Noise) Regulations 2018                                                                                                3
+46-         Aviation Transport Security Regulations 2005                                                                                                    3
+47-         Civil Aviation Safety Regulations 1998                                                                                                          3
+48-         Migration Regulations 1994                                                                                                                      3
+--
+63:2 Commencement
+64-        (1) Each provision of this instrument specified in column 1 of the table commences,
+65-            or is taken to have commenced, in accordance with column 2 of the table. Any
+66-            other statement in column 2 has effect according to its terms.
+67-
+68:  Commencement information
+
+===== F2026L00640_legislative_instrument.txt =====
+37:               2         Commencement.............................................................................................................1
+38-               3         Authority .......................................................................................................................1
+39-               4         Schedules.......................................................................................................................1
+40-
+41-Schedule 1—Amendments                                                                                                                                     2
+42-         Migration Regulations 1994                                                                                                                       2
+43-
+44-
+45-
+46-
+47-                   Migration Amendment (Administrative Review of Student Visa Refusal Decisions)                                                               i
+48-                                               Regulations 2026
+49-OPC67737 - A
+--
+57:2 Commencement
+58-        (1) Each provision of this instrument specified in column 1 of the table commences,
+59-            or is taken to have commenced, in accordance with column 2 of the table. Any
+60-            other statement in column 2 has effect according to its terms.
+61-
+62:  Commencement information
+
+===== F2026L00733_legislative_instrument.txt =====
+37:               2       Commencement.............................................................................................................1
+38-               3       Authority .......................................................................................................................1
+39-               4       Schedules.......................................................................................................................1
+40-
+41-Schedule 1—Amendments                                                                                                                                   2
+42-         Migration Regulations 1994                                                                                                                     2
+43-
+44-
+45-
+46-
+47-                      Migration Amendment (Realigning the Community Support Program)                                                                         i
+48-                                             Regulations 2026
+49-OPC67689 - A
+--
+57:2 Commencement
+58-        (1) Each provision of this instrument specified in column 1 of the table commences,
+59-            or is taken to have commenced, in accordance with column 2 of the table. Any
+60-            other statement in column 2 has effect according to its terms.
+61-
+62:  Commencement information
+
+===== F2026L00874_legislative_instrument.txt =====
+36:               2       Commencement.............................................................................................................1
+37-               3       Authority .......................................................................................................................1
+38-               4       Schedules.......................................................................................................................1
+39-
+40-Schedule 1—Fees for citizenship applications                                                                                                            2
+41-
+42-    Part 1—Fees                                                                                                                                         2
+43-         Australian Citizenship Regulation 2016                                                                                                         2
+44-
+45-    Part 2—Transitional provisions                                                                                                                      3
+46-         Australian Citizenship Regulation 2016                                                                                                         3
+47-
+48-Schedule 2—Temporary skilled migration income threshold                                                                                                 4
+--
+66:2 Commencement
+67-        (1) Each provision of this instrument specified in column 1 of the table commences,
+68-            or is taken to have commenced, in accordance with column 2 of the table. Any
+69-            other statement in column 2 has effect according to its terms.
+70-
+71:  Commencement information
+
+===== F2026L00876_legislative_instrument.txt =====
+37:               2         Commencement.............................................................................................................1
+38-               3         Authority .......................................................................................................................1
+39-               4         Schedules.......................................................................................................................1
+40-
+41-Schedule 1—Amendments                                                                                                                                     2
+42-         Migration Regulations 1994                                                                                                                       2
+43-
+44-
+45-
+46-
+47-                   Migration Amendment (Working Holiday Maker Age Criteria) Regulations 2026                                                              i
+48-OPC67760 - A
+49-
+--
+56:2 Commencement
+57-        (1) Each provision of this instrument specified in column 1 of the table commences,
+58-            or is taken to have commenced, in accordance with column 2 of the table. Any
+59-            other statement in column 2 has effect according to its terms.
+60-
+61: Commencement information

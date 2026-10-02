@@ -1,0 +1,292 @@
+{
+  "chunking_version": "1.0",
+  "target_chars": 1800,
+  "max_chars": 2400,
+  "overlap_chars": 300,
+  "main_chunk_count": 1610,
+  "evidence_chunk_count": 309,
+  "documents": [
+    {
+      "document_id": "visa_list_homeaffairs_2026-10-01",
+      "corpus": "evidence",
+      "document_status": "CURRENT_METADATA_ONLY",
+      "canonical_role": "supplementary_metadata",
+      "chunks": 1,
+      "characters": 1674
+    },
+    {
+      "document_id": "visa_list_homeaffairs_2026-09-30",
+      "corpus": "main",
+      "document_status": "CURRENT_SNAPSHOT",
+      "canonical_role": "authoritative_current_snapshot",
+      "chunks": 11,
+      "characters": 16770
+    },
+    {
+      "document_id": "migration_act_1958_C171",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 27,
+      "characters": 60623
+    },
+    {
+      "document_id": "migration_regulations_1994_C288_volume_1",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 503,
+      "characters": 1169374
+    },
+    {
+      "document_id": "migration_regulations_1994_C288_volume_2",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 336,
+      "characters": 782125
+    },
+    {
+      "document_id": "migration_regulations_1994_C288_volume_3",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 251,
+      "characters": 583627
+    },
+    {
+      "document_id": "migration_regulations_1994_C288_volume_4_endnotes",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 256,
+      "characters": 605970
+    },
+    {
+      "document_id": "migration_agents_regulations_2026_F2026L00118",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 51,
+      "characters": 65355
+    },
+    {
+      "document_id": "migration_legislation_migration_agents_F2026L00120",
+      "corpus": "evidence",
+      "document_status": "COMMENCED",
+      "canonical_role": "amendment_evidence",
+      "chunks": 3,
+      "characters": 4569
+    },
+    {
+      "document_id": "migration_amendment_temporary_graduate_charge_F2026L00163",
+      "corpus": "evidence",
+      "document_status": "NO_LONGER_IN_FORCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 6,
+      "characters": 7747
+    },
+    {
+      "document_id": "migration_amendment_training_visas_F2026L00221",
+      "corpus": "evidence",
+      "document_status": "NO_LONGER_IN_FORCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 3,
+      "characters": 3957
+    },
+    {
+      "document_id": "air_navigation_legislation_F2026L00224",
+      "corpus": "evidence",
+      "document_status": "COMMENCED",
+      "canonical_role": "amendment_evidence",
+      "chunks": 4,
+      "characters": 4918
+    },
+    {
+      "document_id": "migration_amendment_admin_review_student_F2026L00640",
+      "corpus": "evidence",
+      "document_status": "NO_LONGER_IN_FORCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 6,
+      "characters": 7385
+    },
+    {
+      "document_id": "migration_amendment_community_support_F2026L00733",
+      "corpus": "evidence",
+      "document_status": "NO_LONGER_IN_FORCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 5,
+      "characters": 6155
+    },
+    {
+      "document_id": "home_affairs_legislation_measures_2026_F2026L00874",
+      "corpus": "evidence",
+      "document_status": "CURRENT",
+      "canonical_role": "amendment_evidence",
+      "chunks": 94,
+      "characters": 121934
+    },
+    {
+      "document_id": "migration_amendment_working_holiday_age_F2026L00876",
+      "corpus": "evidence",
+      "document_status": "CURRENT",
+      "canonical_role": "amendment_evidence",
+      "chunks": 4,
+      "characters": 4937
+    },
+    {
+      "document_id": "F2024L01618_subclass_186_current_compilation",
+      "corpus": "main",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "current_compilation",
+      "chunks": 43,
+      "characters": 45754
+    },
+    {
+      "document_id": "F2024L01620_subclass_482_current_compilation",
+      "corpus": "main",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "current_compilation",
+      "chunks": 33,
+      "characters": 35246
+    },
+    {
+      "document_id": "F2019L00278_general_skilled_occupations_current_compilation",
+      "corpus": "main",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "current_compilation",
+      "chunks": 60,
+      "characters": 81403
+    },
+    {
+      "document_id": "F2019L01405_subclass_494_current_compilation",
+      "corpus": "main",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "current_compilation",
+      "chunks": 39,
+      "characters": 50518
+    },
+    {
+      "document_id": "F2025L00904_LIN25-014_legislative_instrument",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "legislative_instrument_support",
+      "chunks": 9,
+      "characters": 10204
+    },
+    {
+      "document_id": "F2025L00904_LIN25-014_explanatory_statement",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "explanatory_statement",
+      "chunks": 14,
+      "characters": 19592
+    },
+    {
+      "document_id": "F2025L00905_LIN25-016_legislative_instrument",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "legislative_instrument_support",
+      "chunks": 14,
+      "characters": 17738
+    },
+    {
+      "document_id": "F2025L00905_LIN25-016_explanatory_statement",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "explanatory_statement",
+      "chunks": 19,
+      "characters": 24703
+    },
+    {
+      "document_id": "F2026L00369_legislative_instrument",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "legislative_instrument_support",
+      "chunks": 11,
+      "characters": 13718
+    },
+    {
+      "document_id": "F2026L00369_explanatory_statement",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "explanatory_statement",
+      "chunks": 10,
+      "characters": 13046
+    },
+    {
+      "document_id": "amendment_block_F2026L00120",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 1,
+      "characters": 397
+    },
+    {
+      "document_id": "amendment_block_F2026L00163",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 4,
+      "characters": 5050
+    },
+    {
+      "document_id": "amendment_block_F2026L00221",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 1,
+      "characters": 1258
+    },
+    {
+      "document_id": "amendment_block_F2026L00224",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 1,
+      "characters": 639
+    },
+    {
+      "document_id": "amendment_block_F2026L00640",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 4,
+      "characters": 4658
+    },
+    {
+      "document_id": "amendment_block_F2026L00733",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 3,
+      "characters": 3487
+    },
+    {
+      "document_id": "amendment_block_F2026L00874_schedule2_income_threshold",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 1,
+      "characters": 1679
+    },
+    {
+      "document_id": "amendment_block_F2026L00874_schedule3_visa_fees",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 89,
+      "characters": 115260
+    },
+    {
+      "document_id": "amendment_block_F2026L00876",
+      "corpus": "evidence",
+      "document_status": "CURRENT_REFERENCE",
+      "canonical_role": "amendment_evidence",
+      "chunks": 2,
+      "characters": 2293
+    }
+  ],
+  "main_output": "data/processed/chunks/main_chunks.jsonl",
+  "evidence_output": "data/processed/chunks/evidence_chunks.jsonl"
+}

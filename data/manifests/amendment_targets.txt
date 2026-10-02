@@ -1,0 +1,248 @@
+
+==================================================
+F2026L00120.txt
+==================================================
+2:4 Regulation 1.03 (note to the definition of Australian permanent
+
+==================================================
+F2026L00163.txt
+==================================================
+8:3 Subparagraphs 1229(2)(a)(i) and (ii) of Schedule 1
+96:4 Subitem 1229(11) of Schedule 1
+
+==================================================
+F2026L00221.txt
+==================================================
+2:1 Subclause 1238(3) of Schedule 1 (table item 4)
+7:2 Subclause 1238(3) of Schedule 1 (table item 5, column headed
+
+==================================================
+F2026L00224.txt
+==================================================
+2:8 Regulation 3.13 (paragraph (c) of the definition of international
+7:9 Regulation 3.13 (subparagraph (c)(i) of the definition of regular
+
+==================================================
+F2026L00640.txt
+==================================================
+2:1 Regulation 1.03 (definition of confirmation of enrolment)
+6:2 Regulation 1.03 (definition of confirmation of enrolment)
+9:3 Regulation 4.27
+
+==================================================
+F2026L00733.txt
+==================================================
+19:3 Subparagraph 202.111(a)(ii) of Schedule 2
+23:4 Paragraph 202.212(c) of Schedule 2
+26:5 Subclause 202.221(2) of Schedule 2
+37:6 Subclause 202.223(2) of Schedule 2
+
+==================================================
+F2026L00874.txt
+==================================================
+2:1 Regulation 1.03
+7:2 Paragraph 2.72C(15)(d)
+11:3 Paragraph 2.72C(15)(f)
+15:4 Subparagraph 2.72C(16)(a)(i)
+19:5 Subregulation 5.42A(1)
+56:1 Regulation 1.03
+73:2 Paragraph 1104BA(2)(a) of Schedule 1
+113:3 Paragraph 1108(2)(a) of Schedule 1
+188:4 Subparagraph 1108A(2)(a)(i) of Schedule 1
+235:5 Subparagraph 1108A(2)(a)(iv) of Schedule 1 (not including the note)
+265:6 Paragraph 1113(2)(a) of Schedule 1
+307:7 Paragraph 1114B(2)(a) of Schedule 1
+348:8 Paragraph 1114C(2)(a) of Schedule 1
+379:9 Paragraph 1118A(2)(a) of Schedule 1
+422:10 Paragraph 1123A(2)(a) of Schedule 1
+498:11 Paragraph 1123B(2)(a) of Schedule 1
+584:12 Paragraph 1124(2)(a) of Schedule 1
+614:13 Paragraph 1124A(2)(a) of Schedule 1
+653:14 Paragraph 1124B(2)(a) of Schedule 1
+1029:15 Paragraph 1128(2)(a) of Schedule 1
+1036:16 Subparagraph 1129(2)(a)(ii) of Schedule 1 (not including the note)
+1070:17 Paragraph 1130(2)(a) of Schedule 1
+1313:18 Paragraph 1130A(2)(a) of Schedule 1
+1556:19 Paragraph 1136(2)(a) of Schedule 1
+1682:20 Subitem 1137(3) of Schedule 1
+1723:21 Subitem 1137(4J) of Schedule 1
+1766:22 Paragraph 1138(2)(a) of Schedule 1
+1796:23 Paragraph 1139(2)(a) of Schedule 1
+1903:24 Subparagraph 1140(2)(a)(i) of Schedule 1 (table)
+1912:25 Subparagraph 1140(2)(a)(ii) of Schedule 1 (cell at table item 1,
+1916:26 Paragraph 1202B(2)(a) of Schedule 1
+2129:27 Paragraph 1211(2)(a) of Schedule 1
+2170:28 Paragraph 1212B(2)(a) of Schedule 1
+2200:29 Subparagraph 1214A(2)(a)(i) of Schedule 1
+2244:30 Paragraph 1214BA(2)(a) of Schedule 1 (table)
+2253:31 Paragraph 1215(2)(a) of Schedule 1
+2295:32 Paragraph 1217(2)(a) of Schedule 1
+2345:35 Subparagraph 1221(2)(a)(iii) of Schedule 1 (not including the note)
+2385:38 Subparagraph 1221A(2)(a)(iii) of Schedule 1 (not including the note)
+2430:40 Subparagraph 1222(2)(a)(ia) of Schedule 1 (table)
+2492:42 Subparagraph 1222(2)(a)(ii) of Schedule 1 (table)
+2501:43 Subitem 1222(5A) of Schedule 1
+2526:44 Subparagraph 1224A(2)(a)(ii) of Schedule 1
+2537:45 Subparagraph 1225(2)(a)(ii) of Schedule 1
+2549:47 Subparagraph 1229(2)(a)(i) of Schedule 1 (table)
+2571:49 Subparagraph 1229(2)(a)(ii) of Schedule 1 (table)
+2584:51 Subparagraph 1229(2)(a)(iii) of Schedule 1 (table)
+2593:52 Subparagraph 1229(2)(a)(iv) of Schedule 1 (table)
+2602:53 Subitem 1229(11) of Schedule 1 (definition of eligible passport)
+2605:54 Paragraph 1230(2)(a) of Schedule 1
+2707:56 Subparagraph 1231(2)(a)(v) of Schedule 1 (not including the note)
+2748:57 Subparagraphs 1234(2)(iia) and (iii) of Schedule 1 (not including the
+2808:58 Paragraphs 1236(2)(a) and (aa) of Schedule 1
+2841:59 Subparagraphs 1237(2)(a)(iii) and (iv) of Schedule 1
+2892:60 Paragraph 1238(2)(a) of Schedule 1
+2932:61 Paragraph 1239(2)(a) of Schedule 1
+2939:62 Subparagraph 1240(2)(a)(ii) of Schedule 1
+2977:63 Paragraph 1241(2)(a) of Schedule 1
+3013:64 Paragraph 1242(2)(a) of Schedule 1
+3059:65 Paragraph 1302(2)(a) of Schedule 1
+
+==================================================
+F2026L00874_schedule2_income_threshold.txt
+==================================================
+2:1 Regulation 1.03
+7:2 Paragraph 2.72C(15)(d)
+11:3 Paragraph 2.72C(15)(f)
+15:4 Subparagraph 2.72C(16)(a)(i)
+19:5 Subregulation 5.42A(1)
+
+==================================================
+F2026L00874_schedule3_visa_fees.txt
+==================================================
+2:1 Regulation 1.03
+19:2 Paragraph 1104BA(2)(a) of Schedule 1
+59:3 Paragraph 1108(2)(a) of Schedule 1
+134:4 Subparagraph 1108A(2)(a)(i) of Schedule 1
+181:5 Subparagraph 1108A(2)(a)(iv) of Schedule 1 (not including the note)
+211:6 Paragraph 1113(2)(a) of Schedule 1
+253:7 Paragraph 1114B(2)(a) of Schedule 1
+294:8 Paragraph 1114C(2)(a) of Schedule 1
+325:9 Paragraph 1118A(2)(a) of Schedule 1
+368:10 Paragraph 1123A(2)(a) of Schedule 1
+444:11 Paragraph 1123B(2)(a) of Schedule 1
+530:12 Paragraph 1124(2)(a) of Schedule 1
+560:13 Paragraph 1124A(2)(a) of Schedule 1
+599:14 Paragraph 1124B(2)(a) of Schedule 1
+975:15 Paragraph 1128(2)(a) of Schedule 1
+982:16 Subparagraph 1129(2)(a)(ii) of Schedule 1 (not including the note)
+1016:17 Paragraph 1130(2)(a) of Schedule 1
+1259:18 Paragraph 1130A(2)(a) of Schedule 1
+1502:19 Paragraph 1136(2)(a) of Schedule 1
+1628:20 Subitem 1137(3) of Schedule 1
+1669:21 Subitem 1137(4J) of Schedule 1
+1712:22 Paragraph 1138(2)(a) of Schedule 1
+1742:23 Paragraph 1139(2)(a) of Schedule 1
+1849:24 Subparagraph 1140(2)(a)(i) of Schedule 1 (table)
+1858:25 Subparagraph 1140(2)(a)(ii) of Schedule 1 (cell at table item 1,
+1862:26 Paragraph 1202B(2)(a) of Schedule 1
+2075:27 Paragraph 1211(2)(a) of Schedule 1
+2116:28 Paragraph 1212B(2)(a) of Schedule 1
+2146:29 Subparagraph 1214A(2)(a)(i) of Schedule 1
+2190:30 Paragraph 1214BA(2)(a) of Schedule 1 (table)
+2199:31 Paragraph 1215(2)(a) of Schedule 1
+2241:32 Paragraph 1217(2)(a) of Schedule 1
+2291:35 Subparagraph 1221(2)(a)(iii) of Schedule 1 (not including the note)
+2331:38 Subparagraph 1221A(2)(a)(iii) of Schedule 1 (not including the note)
+2376:40 Subparagraph 1222(2)(a)(ia) of Schedule 1 (table)
+2438:42 Subparagraph 1222(2)(a)(ii) of Schedule 1 (table)
+2447:43 Subitem 1222(5A) of Schedule 1
+2472:44 Subparagraph 1224A(2)(a)(ii) of Schedule 1
+2483:45 Subparagraph 1225(2)(a)(ii) of Schedule 1
+2495:47 Subparagraph 1229(2)(a)(i) of Schedule 1 (table)
+2517:49 Subparagraph 1229(2)(a)(ii) of Schedule 1 (table)
+2530:51 Subparagraph 1229(2)(a)(iii) of Schedule 1 (table)
+2539:52 Subparagraph 1229(2)(a)(iv) of Schedule 1 (table)
+2548:53 Subitem 1229(11) of Schedule 1 (definition of eligible passport)
+2551:54 Paragraph 1230(2)(a) of Schedule 1
+2653:56 Subparagraph 1231(2)(a)(v) of Schedule 1 (not including the note)
+2694:57 Subparagraphs 1234(2)(iia) and (iii) of Schedule 1 (not including the
+2754:58 Paragraphs 1236(2)(a) and (aa) of Schedule 1
+2787:59 Subparagraphs 1237(2)(a)(iii) and (iv) of Schedule 1
+2838:60 Paragraph 1238(2)(a) of Schedule 1
+2878:61 Paragraph 1239(2)(a) of Schedule 1
+2885:62 Subparagraph 1240(2)(a)(ii) of Schedule 1
+2923:63 Paragraph 1241(2)(a) of Schedule 1
+2959:64 Paragraph 1242(2)(a) of Schedule 1
+3005:65 Paragraph 1302(2)(a) of Schedule 1
+
+==================================================
+F2026L00876.txt
+==================================================
+2:1 Paragraph 1224A(3)(a) of Schedule 1
+6:2 Subparagraph 1224A(3)(aaa)(ii) of Schedule 1
+25:5 Subitem 1225(5) of Schedule 1 (note)
+28:6 Paragraph 417.211(1)(a) of Schedule 2
+31:7 Subclause 417.211(2) of Schedule 2
+42:10 Paragraph 462.211B(1)(a) of Schedule 2
+
+==================================================
+F2026L00874_schedule2_income_threshold.txt
+==================================================
+2:1 Regulation 1.03
+7:2 Paragraph 2.72C(15)(d)
+11:3 Paragraph 2.72C(15)(f)
+15:4 Subparagraph 2.72C(16)(a)(i)
+19:5 Subregulation 5.42A(1)
+
+==================================================
+F2026L00874_schedule3_visa_fees.txt
+==================================================
+2:1 Regulation 1.03
+19:2 Paragraph 1104BA(2)(a) of Schedule 1
+59:3 Paragraph 1108(2)(a) of Schedule 1
+134:4 Subparagraph 1108A(2)(a)(i) of Schedule 1
+181:5 Subparagraph 1108A(2)(a)(iv) of Schedule 1 (not including the note)
+211:6 Paragraph 1113(2)(a) of Schedule 1
+253:7 Paragraph 1114B(2)(a) of Schedule 1
+294:8 Paragraph 1114C(2)(a) of Schedule 1
+325:9 Paragraph 1118A(2)(a) of Schedule 1
+368:10 Paragraph 1123A(2)(a) of Schedule 1
+444:11 Paragraph 1123B(2)(a) of Schedule 1
+530:12 Paragraph 1124(2)(a) of Schedule 1
+560:13 Paragraph 1124A(2)(a) of Schedule 1
+599:14 Paragraph 1124B(2)(a) of Schedule 1
+975:15 Paragraph 1128(2)(a) of Schedule 1
+982:16 Subparagraph 1129(2)(a)(ii) of Schedule 1 (not including the note)
+1016:17 Paragraph 1130(2)(a) of Schedule 1
+1259:18 Paragraph 1130A(2)(a) of Schedule 1
+1502:19 Paragraph 1136(2)(a) of Schedule 1
+1628:20 Subitem 1137(3) of Schedule 1
+1669:21 Subitem 1137(4J) of Schedule 1
+1712:22 Paragraph 1138(2)(a) of Schedule 1
+1742:23 Paragraph 1139(2)(a) of Schedule 1
+1849:24 Subparagraph 1140(2)(a)(i) of Schedule 1 (table)
+1858:25 Subparagraph 1140(2)(a)(ii) of Schedule 1 (cell at table item 1,
+1862:26 Paragraph 1202B(2)(a) of Schedule 1
+2075:27 Paragraph 1211(2)(a) of Schedule 1
+2116:28 Paragraph 1212B(2)(a) of Schedule 1
+2146:29 Subparagraph 1214A(2)(a)(i) of Schedule 1
+2190:30 Paragraph 1214BA(2)(a) of Schedule 1 (table)
+2199:31 Paragraph 1215(2)(a) of Schedule 1
+2241:32 Paragraph 1217(2)(a) of Schedule 1
+2291:35 Subparagraph 1221(2)(a)(iii) of Schedule 1 (not including the note)
+2331:38 Subparagraph 1221A(2)(a)(iii) of Schedule 1 (not including the note)
+2376:40 Subparagraph 1222(2)(a)(ia) of Schedule 1 (table)
+2438:42 Subparagraph 1222(2)(a)(ii) of Schedule 1 (table)
+2447:43 Subitem 1222(5A) of Schedule 1
+2472:44 Subparagraph 1224A(2)(a)(ii) of Schedule 1
+2483:45 Subparagraph 1225(2)(a)(ii) of Schedule 1
+2495:47 Subparagraph 1229(2)(a)(i) of Schedule 1 (table)
+2517:49 Subparagraph 1229(2)(a)(ii) of Schedule 1 (table)
+2530:51 Subparagraph 1229(2)(a)(iii) of Schedule 1 (table)
+2539:52 Subparagraph 1229(2)(a)(iv) of Schedule 1 (table)
+2548:53 Subitem 1229(11) of Schedule 1 (definition of eligible passport)
+2551:54 Paragraph 1230(2)(a) of Schedule 1
+2653:56 Subparagraph 1231(2)(a)(v) of Schedule 1 (not including the note)
+2694:57 Subparagraphs 1234(2)(iia) and (iii) of Schedule 1 (not including the
+2754:58 Paragraphs 1236(2)(a) and (aa) of Schedule 1
+2787:59 Subparagraphs 1237(2)(a)(iii) and (iv) of Schedule 1
+2838:60 Paragraph 1238(2)(a) of Schedule 1
+2878:61 Paragraph 1239(2)(a) of Schedule 1
+2885:62 Subparagraph 1240(2)(a)(ii) of Schedule 1
+2923:63 Paragraph 1241(2)(a) of Schedule 1
+2959:64 Paragraph 1242(2)(a) of Schedule 1
+3005:65 Paragraph 1302(2)(a) of Schedule 1

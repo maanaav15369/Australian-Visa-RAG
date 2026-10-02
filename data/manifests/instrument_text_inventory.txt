@@ -1,0 +1,17 @@
+   443 data/raw/legislation/instruments/F2026L00120/F2026L00120_explanatory_statement.txt
+   154 data/raw/legislation/instruments/F2026L00120/F2026L00120_legislative_instrument.txt
+   630 data/raw/legislation/instruments/F2026L00163/F2026L00163_explanatory_statement.txt
+   244 data/raw/legislation/instruments/F2026L00163/F2026L00163_legislative_instrument.txt
+   400 data/raw/legislation/instruments/F2026L00221/F2026L00221_explanatory_statement.txt
+   131 data/raw/legislation/instruments/F2026L00221/F2026L00221_legislative_instrument.txt
+  1269 data/raw/legislation/instruments/F2026L00224/F2026L00224_explanatory_statement.txt
+   172 data/raw/legislation/instruments/F2026L00224/F2026L00224_legislative_instrument.txt
+   834 data/raw/legislation/instruments/F2026L00640/F2026L00640_explanatory_statement.txt
+   201 data/raw/legislation/instruments/F2026L00640/F2026L00640_legislative_instrument.txt
+   514 data/raw/legislation/instruments/F2026L00733/F2026L00733_explanatory_statement.txt
+   181 data/raw/legislation/instruments/F2026L00733/F2026L00733_legislative_instrument.txt
+  1813 data/raw/legislation/instruments/F2026L00874/F2026L00874_explanatory_statement.txt
+  3291 data/raw/legislation/instruments/F2026L00874/F2026L00874_legislative_instrument.txt
+   501 data/raw/legislation/instruments/F2026L00876/F2026L00876_explanatory_statement.txt
+   171 data/raw/legislation/instruments/F2026L00876/F2026L00876_legislative_instrument.txt
+ 10949 total

@@ -1,0 +1,234 @@
+data/raw/legislation/migration_regulations/C288/volume_3.txt:7:Includes amendments: F2026L00733, F2026L00874 and F2026L00876
+data/raw/legislation/migration_regulations/C288/volume_3.txt:1900:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_3.txt:2805:(2) For the purposes of working out the length of time the applicant has lived in a specified regional area, the applicant is taken to have lived in a specified regional area for a period of 6 months (or such longer period as the Minister specifies in a legislative instrument under subclause (3)) if the applicant:
+data/raw/legislation/migration_regulations/C288/volume_3.txt:2811:(3) The Minister may, by legislative instrument, specify a longer period for the purposes of subclause (2).
+data/raw/legislation/migration_regulations/C288/volume_3.txt:2815:(b) if subclause (2) applies—for a total of 9 months (or such shorter period as the Minister specifies for the purposes of this paragraph in a legislative instrument under subclause (3)) as the holder of one or more of the visas mentioned in subclause 887.212(1).
+data/raw/legislation/migration_regulations/C288/volume_3.txt:2817:(3) The Minister may, by legislative instrument, specify a shorter period for the purposes of paragraph (1)(b).
+data/raw/legislation/migration_regulations/C288/volume_3.txt:3607:(b) the applicant has all the characteristics of a class of persons specified in a legislative instrument made by the Minister for the purposes of this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_3.txt:4315:8116 The holder must not work in Australia other than by engaging in an activity specified in a legislative instrument made by the Minister for this clause.
+data/raw/legislation/migration_regulations/C288/volume_3.txt:4862:(a) who belong to a class of persons specified in a legislative instrument made by the Minister for the purposes of paragraph 2.40(1)(n); and
+data/raw/legislation/migration_regulations/C288/volume_3.txt:5866:(2) The Minister may, by legislative instrument, specify an event for the purposes of paragraph (b) of the definition of COVID‑19 pandemic event 408 visa in subclause (1), if the event is specified for the purposes of paragraph 408.229(b) of Schedule 2.
+data/raw/legislation/migration_regulations/C288/volume_3.txt:5867:(3) The Minister may, by legislative instrument, specify kinds of specified Subclass 417 work for the purposes of the definition of special Subclass 417 work in subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_3.txt:5868:(4) The Minister may, by legislative instrument, specify kinds of specified Subclass 462 work for the purposes of the definition of special Subclass 462 work in subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7:Includes amendments: F2026L00733, F2026L00874 and F2026L00876
+data/raw/legislation/migration_regulations/C288/volume_2.txt:949:(3) Condition 8116 must not be imposed unless the applicant is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:974:(3) Condition 8116 must not be imposed unless the applicant is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:977:(2) Condition 8116 must not be imposed unless the holder of the visa is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:993:(2) Condition 8116 must not be imposed unless the applicant is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:1092:(c) is not within a class of persons specified in a legislative instrument made by the Minister for the purposes of this paragraph;
+data/raw/legislation/migration_regulations/C288/volume_2.txt:1096:(4) Condition 8116 must not be imposed unless the applicant is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:1099:(2) Condition 8116 must not be imposed unless the applicant is in a class of persons specified by the Minister, by legislative instrument, for this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:3262:(2) The Minister may, by legislative instrument, specify different periods of time for the purposes of subclause (1) for persons specified in the instrument.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:3268:(3) The Minister may, by legislative instrument, specify different periods of time for the purposes of subclauses (1) and (2) for persons specified in the instrument.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:3284:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:3334:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of paragraph (1)(c).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:3750:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4121:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4276:(2) The Minister may, by legislative instrument, specify circumstances for the purposes of subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4448:(3) The Minister may, by legislative instrument, specify a class of persons for the purposes of subclause (2).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4452:(3) The Minister may, by legislative instrument, specify an amount for the purposes of subclause (2) in relation to all applicants or different classes of applicants.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4461:(3) The Minister may, by legislative instrument, specify a class of persons for the purposes of subclause (2).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4510:(3) The Minister may, by legislative instrument, specify a class of persons for the purposes of subclause (2).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4633:satisfies any English language test requirements specified by the Minister in a legislative instrument made for the purposes of this clause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4837:(a) the number of Subclass 200 visas granted in a financial year exceeding the maximum number of Subclass 200 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4838:(b) the number of visas of particular classes (including Subclass 200) granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4951:(a) the number of Subclass 201 visas granted in a financial year exceeding the maximum number of Subclass 201 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:4952:(b) the number of visas of particular classes, including Subclass 201 visas, granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5064:(3) The Minister may, by legislative instrument, set out the priorities of the Commonwealth in relation to the permanent settlement in Australia of persons who are proposed by approved proposing organisations for Subclass 202 visas.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5077:(a) the number of Subclass 202 visas granted in a financial year exceeding the maximum number of Subclass 202 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5078:(b) the number of visas of particular classes, including Subclass 202, granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5190:(a) the number of Subclass 203 visas granted in a financial year exceeding the maximum number of Subclass 203 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5191:(b) the number of visas of particular classes, including Subclass 203, granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5289:(a) the number of Subclass 204 visas granted in a financial year exceeding the maximum number of Subclass 204 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:5290:(b) the number of visas of particular classes, including Subclass 204 granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6208:(b) a temporary visa specified by the Minister in a legislative instrument made for the purposes of this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6346:(b) a temporary visa specified by the Minister in a legislative instrument made for the purposes of this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6537:(b) the applicant is in a class of persons specified in a legislative instrument made by the Minister for the purposes of this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6547:(b) the event is specified in a legislative instrument made by the Minister for the purposes of this paragraph; and
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6803:(ii) when entering Australia, the applicant held a working holiday eligible passport of the kind, or of one of the kinds, specified in a legislative instrument made by the Minister for the purposes of subclause (2); and
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6805:(b) the applicant does not need to satisfy the criteria in subclauses (5) and (6) if the applicant holds a passport of a kind specified by the Minister in a legislative instrument made for the purposes of subitem 1225(3BA) of Schedule 1; and
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6810:(2) The applicant holds a working holiday eligible passport of a kind specified in a legislative instrument made by the Minister for the purposes of this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:6840:(2A) The applicant holds a working holiday eligible passport of the kind, or of one of the kinds, specified in a legislative instrument made by the Minister for the purposes of subclause 417.211(2).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7007:(a) the number of Subclass 449 visas granted in a financial year exceeding the maximum number of Subclass 449 visas, as determined by the Minister by legislative instrument, that may be granted in that financial year; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7008:(b) the number of visas of particular classes, including Subclass 449, granted in a financial year exceeding the maximum number of visas of those classes, as determined by the Minister by legislative instrument, that may be granted in that financial year.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7128:(a) the applicant holds a passport of a kind specified by the Minister in a legislative instrument made for the purposes of paragraph 1224A(3)(d) of Schedule 1; or
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7246:(i) has undertaken a language test specified by the Minister in a legislative instrument made for this paragraph; and
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7248:(b) the applicant holds a passport of a type specified by the Minister in a legislative instrument made for this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7370:(1) The applicant satisfies any language test requirements specified for the applicant by the Minister in a legislative instrument made for the purposes of this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7388:(1) The applicant satisfies any language test requirements specified for the applicant by the Minister in a legislative instrument made for the purposes of this subclause.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7521:(2) The Minister may, by legislative instrument, specify a class of Hong Kong passports for the purposes of items 2 and 5 of the table in subclause (1).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7571:(i) has undertaken a language test specified by the Minister in a legislative instrument made for this paragraph; and
+data/raw/legislation/migration_regulations/C288/volume_2.txt:7573:(b) the applicant holds a passport of a type specified by the Minister in a legislative instrument made for this paragraph.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8060:(2) The Minister may, by legislative instrument, specify circumstances in which applicants are not required to have been under 45 for the purposes of Subclass 494 visas in the Employer Sponsored stream.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8082:Minister may make legislative instruments
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8083:(6) For the purposes of paragraph (4)(b) of this clause, the Minister may, by legislative instrument, specify a person or body as the assessing authority for an occupation.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8084:(7) The Minister may, by legislative instrument, specify circumstances in which the requirements of subclauses (2) to (5) are not required to have been met for the purposes of Subclass 494 visas in the Employer Sponsored stream.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8089:(2) The Minister may, by legislative instrument, specify circumstances in which an applicant is not required to have been employed as mentioned in paragraph (1)(a) for the purposes of Subclause 494 visas in the Employer Sponsored stream.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8094:(2) The Minister may, by legislative instrument, specify circumstances in which applicants are not required to have had competent English for the purposes of Subclass 494 visas in the Employer Sponsored stream.
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8249:(3) The Minister may, by legislative instrument, specify:
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8259:(4) The Minister may, by legislative instrument, specify requirements for the purposes of subclause (3).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8305:(4) The Minister may, by legislative instrument, specify requirements for the purposes of subclause (3).
+data/raw/legislation/migration_regulations/C288/volume_2.txt:8423:(4) The Minister may, by legislative instrument, specify requirements for the purposes of subclause (3).
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:7:Includes amendments: F2026L00733, F2026L00874 and F2026L00876
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:97:LIA = Legislative Instruments Act 2003
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:98:SLI = Select Legislative Instrument
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:629:29 Mar 2005 (F2005L00762)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:633:11 May 2005 (F2005L00858)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:637:20 June 2005 (F2005L01493)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:641:20 June 2005 (F2005L01502)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:645:16 June 2005 (F2005L01548)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:649:22 July 2005 (F2005L02018)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:653:25 July 2005 (F2005L02019)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:657:7 Oct 2005 (F2005L03037)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:661:24 Oct 2005 (F2005L03190)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:665:24 Nov 2005 (F2005L03683)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:669:19 Dec 2005 (F2005L03892)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:673:19 Dec 2005 (F2005L03909)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:677:16 Feb 2006 (F2006L00471)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:681:5 June 2006 (F2006L01648)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:685:19 June 2006 (F2006L01781)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:689:26 June 2006 (F2006L01876)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:693:11 Sept 2006 (F2006L02979)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:697:25 Sept 2006 (F2006L03096)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:701:15 Dec 2006 (F2006L04033)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:705:2 Apr 2007 (F2007L00811)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:709:13 Apr 2007 (F2007L00989)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:713:24 May 2007 (F2007L01460)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:717:26 June 2007 (F2007L01798)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:721:29 June 2007 (F2007L01980)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:725:29 June 2007 (F2007L01896)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:729:24 Aug 2007 (F2007L02644)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:733:10 Sept 2007 (F2007L03559)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:737:10 Sept 2007 (F2007L03557)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:741:10 Sept 2007 (F2007L03560)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:745:30 Sept 2007 (F2007L03558)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:749:3 Oct 2007 (F2007L03859)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:753:3 Oct 2007 (F2007L03853)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:757:19 Oct 2007 (F2007L04099)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:761:9 Apr 2008 (F2008L00942)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:765:14 Apr 2008 (F2008L01025)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:769:3 June 2008 (F2008L01848)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:773:8 Aug 2008 (F2008L03026)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:777:8 Aug 2008 (F2008L03027)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:781:9 Aug 2008 (F2008L03024)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:785:18 Sept 2008 (F2008L03476)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:789:8 Oct 2008 (F2008L03542)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:793:1 Dec 2008 (F2008L04492)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:797:9 Feb 2009 (F2009L00267)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:801:2 Mar 2009 (F2009L00689)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:805:18 Mar 2009 (F2009L01048)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:809:9 Apr 2009 (F2009L01253)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:813:14 May 2009 (F2009L01746)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:817:19 June 2009 (F2009L02373)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:822:13 Aug 2009 (F2009L03139)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:826:8 Sept 2009 (F2009L03389)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:830:22 June 2009 (F2009L02376)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:834:24 June 2009 (F2009L02518)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:838:25 June 2009 (F2009L02512)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:842:13 Aug 2009 (F2009L03097)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:846:14 Aug 2009 (F2009L03143)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:850:9 Sept 2009 (F2009L03359)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:854:21 Sept 2009 (F2009L03528)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:858:14 Oct 2009 (F2009L03759)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:863:21 June 2011 (F2011L01098)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:867:2 Nov 2009 (F2009L04027)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:871:27 Nov 2009 (F2009L04326)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:875:15 Dec 2009 (F2009L04559)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:879:16 Mar 2010 (F2010L00638)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:883:26 Mar 2010 (F2010L00733)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:887:16 Apr 2010 (F2010L00929)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:891:16 Apr 2010 (F2010L00936)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:895:7 May 2010 (F2010L01203)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:899:8 June 2010 (F2010L01518)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:903:18 June 2010 (F2010L01587)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:907:21 July 2010 (F2010L02119)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:911:28 Oct 2010 (F2010L02818)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:915:25 Nov 2010 (F2010L03085)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:919:1 Mar 2011 (F2011L00336)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:923:16 Mar 2011 (F2011L00429)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:927:7 June 2011 (F2011L00966)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:931:21 June 2011 (F2011L01098)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:935:30 June 2011 (F2011L01376)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:939:9 Aug 2011 (F2011L01620)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:943:5 Nov 2011 (F2011L02239)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:947:12 Dec 2011 (F2011L02650)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:951:13 Feb 2012 (F2012L00282)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:955:23 Mar 2012 (F2012L00664)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:959:29 May 2012 (F2012L01105)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:963:29 May 2012 (F2012L01099)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:967:18 June 2012 (F2012L01223)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:971:19 June 2012 (F2012L01244)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:975:29 June 2012 (F2012L01438)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:979:27 Sept 2012 (F2012L01961)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:983:11 Oct 2012 (F2012L02021)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:987:15 Oct 2012 (F2012L02041)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:991:23 Nov 2012 (F2012L02233)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:995:23 Nov 2012 (F2012L02236)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:999:10 Dec 2012 (F2012L02381)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1003:18 Mar 2013 (F2013L00486)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1007:19 Mar 2013 (F2013L00490)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1012:31 May 2013 (F2013L00885)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1016:17 May 2013 (F2013L00795)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1020:17 May 2013 (F2013L00786)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1024:31 May 2013 (F2013L00878)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1028:31 May 2013 (F2013L00885)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1032:3 June 2013 (F2013L00890)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1036:1 July 2013 (F2013L01029)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1040:17 June 2013 (F2013L01014)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1044:28 June 2013 (F2013L01248)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1048:28 June 2013 (F2013L01229)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1052:28 June 2013 (F2013L01218)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1056:7 Aug 2013 (F2013L01534)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1060:21 Oct 2013 (F2013L01817)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1064:18 Oct 2013 (F2013L01811)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1068:22 Nov 2013 (F2013L01962)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1072:22 Nov 2013 (F2013L01963)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1076:13 Dec 2013 (F2013L02103)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1080:13 Dec 2013 (F2013L02102)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1084:13 Dec 2013 (F2013L02101)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1088:13 Dec 2013 (F2013L02104)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1092:18 Mar 2014 (F2014L00272)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1096:17 Mar 2014 (F2014L00286)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1100:16 Apr 2014 (F2014L00421)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1104:30 May 2014 (F2014L00624)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1108:30 May 2014 (F2014L00622)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1112:16 June 2014 (F2014L00726)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1116:30 June 2014 (F2014L00882)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1120:3 Oct 2014 (F2014L01321)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1124:3 Oct 2014 (F2014L01320)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1128:31 Oct 2014 (F2014L01460)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1132:31 Oct 2014 (F2014L01461)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1136:1 Dec 2014 (F2014L01617)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1140:12 Dec 2014 (F2014L01696)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1144:18 Dec 2014 (F2014L01747)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1148:30 Mar 2015 (F2015L00371)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1152:27 Mar 2015 (F2015L00351)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1156:17 Apr 2015 (F2015L00542)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1160:17 Apr 2015 (F2015L00551)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1164:19 June 2015 (F2015L00854)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1168:26 June 2015 (F2015L00963)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1172:29 June 2015 (F2015L00972)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1176:21 Aug 2015 (F2015L01304)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1180:18 Sept 2015 (F2015L01461)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1184:16 Oct 2015 (F2015L01661)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1188:17 Nov 2015 (F2015L01810)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1192:17 Nov 2015 (F2015L01808)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1196:3 Dec 2015 (F2015L01937)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1200:11 Dec 2015 (F2015L01961)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1204:11 Dec 2015 (F2015L01962)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1212:11 Mar 2016 (F2016L00295)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1216:15 Apr 2016 (F2016L00523)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1220:19 Apr 2016 (F2016L00539)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1224:9 May 2016 (F2016L00725)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1228:6 Sept 2016 (F2016L01390)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1232:6 Sept 2016 (F2016L01391)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1236:1 Nov 2016 (F2016L01696)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1240:11 Nov 2016 (F2016L01743)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1244:11 Nov 2016 (F2016L01745)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1248:25 Nov 2016 (F2016L01809)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1252:12 Dec 2016 (F2016L01904)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1256:13 Dec 2016 (F2016L01926)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1260:13 Apr 2017 (F2017L00437)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1264:19 May 2017 (F2017L00549)
+data/raw/legislation/migration_regulations/C288/volume_4_endnotes.txt:1268:22 May 2017 (F2017L00576)
+data/raw/legislation/migration_regulations/C288
