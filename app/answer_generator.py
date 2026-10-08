@@ -52,6 +52,10 @@ Rules:
     individual's eligibility.
 18. Keep the answer structured and concise.
 19. Preserve visa subclass numbers and legal provision numbers exactly.
+20. For a CURRENT visa-fee or application-charge question, if the supplied
+    authoritative amendment contains both an earlier amount and a replacement
+    table, use the replacement table as the operative current amount. Do not
+    report the repealed or replaced amount as current.
 """
 
 
