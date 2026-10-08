@@ -389,6 +389,57 @@ class VectorStore:
                 metadatas.append(metadata)
                 distances.append(1.0)
 
+        # For current Subclass 500 eligibility/requirements questions,
+        # explicitly include the current October 2026 amendment provisions
+        # that affect where a primary application can be made and granted.
+        current_student_eligibility_query = (
+            self._current_scope_requested(query_text_lower)
+            and (
+                "student visa" in query_text_lower
+                or "subclass 500" in query_text_lower
+            )
+            and any(
+                phrase in query_text_lower
+                for phrase in (
+                    "eligibility",
+                    "eligible",
+                    "requirements",
+                    "criteria",
+                    "qualify",
+                )
+            )
+        )
+
+        if current_student_eligibility_query:
+            authoritative = self.collection.get(
+                where={"version": "F2026L01347"},
+                include=["documents", "metadatas"],
+            )
+
+            existing_ids = set(ids)
+
+            for doc_id, doc, metadata in zip(
+                authoritative["ids"],
+                authoritative["documents"],
+                authoritative["metadatas"],
+            ):
+                normalized = "".join(doc.lower().split())
+
+                relevant = (
+                    "1222(3)(aa)" in normalized
+                    or "1222(3a)" in normalized
+                    or "500.411" in normalized
+                )
+
+                if not relevant or doc_id in existing_ids:
+                    continue
+
+                ids.append(doc_id)
+                documents.append(doc)
+                metadatas.append(metadata)
+                distances.append(1.0)
+                existing_ids.add(doc_id)
+
         if not query_text:
             return {
                 "documents": [documents[:top_k]],
@@ -523,23 +574,84 @@ class VectorStore:
                     overlay = []
 
                     if self._current_scope_requested(query_text):
-                        for item in ranked:
-                            metadata = item[4]
+                        # Prefer current amendment chunks directly from the
+                        # authoritative collection instead of relying only on
+                        # semantic-ranked candidates.
+                        current_docs = self.collection.get(
+                            where={
+                                "$and": [
+                                    {"version": {"$in": list(overlay_versions)}},
+                                    {"status": "CURRENT"},
+                                ]
+                            },
+                            include=["documents", "metadatas"],
+                        )
 
-                            if (
-                                metadata.get("version") in overlay_versions
-                                and metadata.get("status") == "CURRENT"
+                        for doc_id, doc, metadata in zip(
+                            current_docs["ids"],
+                            current_docs["documents"],
+                            current_docs["metadatas"],
+                        ):
+                            normalized = "".join(doc.lower().split())
+
+                            relevant = True
+
+                            if "student visa" in query_lower and (
+                                "eligibility" in query_lower
+                                or "requirements" in query_lower
+                                or "criteria" in query_lower
+                                or "qualify" in query_lower
                             ):
+                                offshore_rule = (
+                                    (
+                                        "afterparagraph1222(3)(a)ofschedule1insert:(aa)"
+                                        in normalized
+                                    )
+                                    and "mustbeoutsideaustralia" in normalized
+                                )
+
+                                exceptions = (
+                                    "aftersubitem1222(3)insertsubitem(3a)"
+                                    in normalized
+                                    or "classesofpersons" in normalized
+                                )
+
+                                relevant = (
+                                    offshore_rule
+                                    or exceptions
+                                    or "500.411" in normalized
+                                    or "1222(3)(aa)" in normalized
+                                )
+
+                            if relevant:
                                 overlay.append(
                                     (
-                                        item[1],
-                                        item[2],
+                                        doc_id,
+                                        doc,
                                         metadata,
                                     )
                                 )
 
-                            if len(overlay) >= 2:
-                                break
+                        # Fallback to ranked current documents if the direct
+                        # current-source lookup found nothing relevant.
+                        if not overlay:
+                            for item in ranked:
+                                metadata = item[4]
+
+                                if (
+                                    metadata.get("version") in overlay_versions
+                                    and metadata.get("status") == "CURRENT"
+                                ):
+                                    overlay.append(
+                                        (
+                                            item[1],
+                                            item[2],
+                                            metadata,
+                                        )
+                                    )
+
+                                if len(overlay) >= 2:
+                                    break
 
                     combined = []
                     seen = set()

@@ -56,6 +56,16 @@ Rules:
     authoritative amendment contains both an earlier amount and a replacement
     table, use the replacement table as the operative current amount. Do not
     report the repealed or replaced amount as current.
+21. For a CURRENT eligibility, requirements, or criteria question, if the
+    core criteria come from a SUPERSEDED consolidated compilation and a
+    relevant CURRENT amendment is supplied, clearly distinguish the
+    unchanged base criteria from the current amendment. Do not describe the
+    SUPERSEDED compilation alone as the current version. Cite the CURRENT
+    amendment as well when it affects the current legal framework.
+22. For Subclass 500, do not state that a current amendment has no effect on
+    primary applicants merely because it does not amend Division 500.2.
+    Separately report any current Schedule 1 application, location, or grant
+    requirement supplied in the context, including paragraph 1222(3)(aa).
 """
 
 
