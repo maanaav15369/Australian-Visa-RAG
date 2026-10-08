@@ -1,5 +1,6 @@
 from pathlib import Path
 from typing import Any
+from datetime import date
 import re
 
 import chromadb
@@ -103,6 +104,85 @@ class VectorStore:
 
         return [term.lower() for term in terms]
 
+    @staticmethod
+    def _current_scope_requested(query: str) -> bool:
+        """
+        Treat the chatbot as current-first unless the user explicitly asks
+        for historical or date-specific rules.
+        """
+        q = query.lower()
+
+        historical_markers = (
+            "historical",
+            "history",
+            "old rule",
+            "previous rule",
+            "former rule",
+            "before 2026",
+            "before 2025",
+            "before 2024",
+            "in 2025",
+            "in 2024",
+            "in 2023",
+            "as it stood",
+            "at that time",
+        )
+
+        return not any(marker in q for marker in historical_markers)
+
+    @staticmethod
+    def _temporal_score(
+        query: str,
+        metadata: dict[str, Any],
+    ) -> float:
+        """
+        Prefer currently effective sources for current/default questions,
+        while retaining superseded compilations as lower-ranked base evidence.
+        """
+        if not VectorStore._current_scope_requested(query):
+            return 0.0
+
+        score = 0.0
+
+        status = str(metadata.get("status", "")).upper()
+        today = date.today()
+
+        if status == "CURRENT":
+            score += 6.0
+        elif status == "CURRENT_REFERENCE":
+            score += 1.0
+        elif status == "COMMENCED":
+            score += 1.0
+        elif status == "SUPERSEDED":
+            score -= 2.0
+        elif status == "HISTORICAL_SNAPSHOT":
+            score -= 5.0
+        elif status == "NO_LONGER_IN_FORCE":
+            score -= 6.0
+
+        effective_from = str(metadata.get("effective_from", "")).strip()
+        effective_to = str(metadata.get("effective_to", "")).strip()
+
+        try:
+            if effective_from:
+                start = date.fromisoformat(effective_from)
+                if start <= today:
+                    score += 2.0
+                else:
+                    score -= 8.0
+        except ValueError:
+            pass
+
+        try:
+            if effective_to:
+                end = date.fromisoformat(effective_to)
+                if end < today:
+                    score -= 4.0
+        except ValueError:
+            pass
+
+        return score
+
     @classmethod
     def _lexical_score(
         cls,
@@ -164,6 +244,33 @@ class VectorStore:
             if phrase in query_lower and phrase in document_lower:
                 score += 2.0
 
+        # Strong anchor for the October 2026 Student visa offshore rule.
+        offshore_query = (
+            (
+                "another student visa" in query_lower
+                or "another visa" in query_lower
+                or "already holds" in query_lower
+                or "holds a student visa" in query_lower
+            )
+            and (
+                "in australia" in query_lower
+                or "outside australia" in query_lower
+            )
+        )
+
+        if offshore_query:
+            if "1222(3)(aa)" in document_lower:
+                score += 35.0
+
+            if "must be outside australia" in document_lower:
+                score += 25.0
+
+            if "holds a subclass 500" in document_lower:
+                score += 15.0
+
+            if "primary criteria" in document_lower:
+                score += 10.0
+
         # Prefer authoritative legislation for legal eligibility questions.
         if eligibility_query:
             source_type = str(
@@ -216,6 +323,45 @@ class VectorStore:
         metadatas = semantic["metadatas"][0]
         ids = semantic["ids"][0]
 
+        # For the October 2026 offshore Student visa rule, explicitly
+        # include the authoritative amendment instrument. This prevents
+        # semantic retrieval from hiding the exact operative provision.
+        query_text_lower = (query_text or "").lower()
+
+        offshore_query = (
+            (
+                "another student visa" in query_text_lower
+                or "another visa" in query_text_lower
+                or "already holds" in query_text_lower
+                or "holds a student visa" in query_text_lower
+            )
+            and (
+                "in australia" in query_text_lower
+                or "outside australia" in query_text_lower
+            )
+        )
+
+        if offshore_query:
+            authoritative = self.collection.get(
+                where={"version": "F2026L01347"},
+                include=["documents", "metadatas"],
+            )
+
+            existing_ids = set(ids)
+
+            for doc_id, doc, metadata in zip(
+                authoritative["ids"],
+                authoritative["documents"],
+                authoritative["metadatas"],
+            ):
+                if doc_id in existing_ids:
+                    continue
+
+                ids.append(doc_id)
+                documents.append(doc)
+                metadatas.append(metadata)
+                distances.append(1.0)
+
         if not query_text:
             return {
                 "documents": [documents[:top_k]],
@@ -257,7 +403,16 @@ class VectorStore:
                 ):
                     lexical_score += 30.0
 
-            combined_score = semantic_score + lexical_score
+            temporal_score = self._temporal_score(
+                query_text,
+                metadata,
+            )
+
+            combined_score = (
+                semantic_score
+                + lexical_score
+                + temporal_score
+            )
 
             ranked.append(
                 (
@@ -329,13 +484,53 @@ class VectorStore:
                     )
 
                 if expanded:
+                    # Keep the relevant C288 base provisions, but also add
+                    # the strongest current October 2026 Student Visa
+                    # amendment chunks when answering current/default queries.
+                    overlay_versions = {
+                        "F2026L01347",
+                        "F2026L01348",
+                        "F2026L01349",
+                    }
+
+                    overlay = []
+
+                    if self._current_scope_requested(query_text):
+                        for item in ranked:
+                            metadata = item[4]
+
+                            if (
+                                metadata.get("version") in overlay_versions
+                                and metadata.get("status") == "CURRENT"
+                            ):
+                                overlay.append(
+                                    (
+                                        item[1],
+                                        item[2],
+                                        metadata,
+                                    )
+                                )
+
+                            if len(overlay) >= 2:
+                                break
+
+                    combined = []
+                    seen = set()
+
+                    for item in overlay + expanded:
+                        if item[0] in seen:
+                            continue
+
+                        seen.add(item[0])
+                        combined.append(item)
+
                     return {
-                        "documents": [[item[1] for item in expanded]],
+                        "documents": [[item[1] for item in combined]],
                         "distances": [[
-                            0.0 for _ in expanded
+                            0.0 for _ in combined
                         ]],
-                        "metadatas": [[item[2] for item in expanded]],
-                        "ids": [[item[0] for item in expanded]],
+                        "metadatas": [[item[2] for item in combined]],
+                        "ids": [[item[0] for item in combined]],
                     }
 
         selected = ranked[:top_k]

@@ -3,22 +3,22 @@
   "target_chars": 1800,
   "max_chars": 2400,
   "overlap_chars": 300,
-  "main_chunk_count": 1610,
-  "evidence_chunk_count": 309,
+  "main_chunk_count": 1618,
+  "evidence_chunk_count": 320,
   "documents": [
     {
       "document_id": "visa_list_homeaffairs_2026-10-01",
       "corpus": "evidence",
-      "document_status": "CURRENT_METADATA_ONLY",
-      "canonical_role": "supplementary_metadata",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
       "chunks": 1,
       "characters": 1674
     },
     {
       "document_id": "visa_list_homeaffairs_2026-09-30",
-      "corpus": "main",
-      "document_status": "CURRENT_SNAPSHOT",
-      "canonical_role": "authoritative_current_snapshot",
+      "corpus": "evidence",
+      "document_status": "HISTORICAL_SNAPSHOT",
+      "canonical_role": "authoritative",
       "chunks": 11,
       "characters": 16770
     },
@@ -33,7 +33,7 @@
     {
       "document_id": "migration_regulations_1994_C288_volume_1",
       "corpus": "main",
-      "document_status": "CURRENT",
+      "document_status": "SUPERSEDED",
       "canonical_role": "authoritative",
       "chunks": 503,
       "characters": 1169374
@@ -41,7 +41,7 @@
     {
       "document_id": "migration_regulations_1994_C288_volume_2",
       "corpus": "main",
-      "document_status": "CURRENT",
+      "document_status": "SUPERSEDED",
       "canonical_role": "authoritative",
       "chunks": 336,
       "characters": 782125
@@ -49,7 +49,7 @@
     {
       "document_id": "migration_regulations_1994_C288_volume_3",
       "corpus": "main",
-      "document_status": "CURRENT",
+      "document_status": "SUPERSEDED",
       "canonical_role": "authoritative",
       "chunks": 251,
       "characters": 583627
@@ -57,7 +57,7 @@
     {
       "document_id": "migration_regulations_1994_C288_volume_4_endnotes",
       "corpus": "main",
-      "document_status": "CURRENT",
+      "document_status": "SUPERSEDED",
       "canonical_role": "authoritative",
       "chunks": 256,
       "characters": 605970
@@ -133,6 +133,30 @@
       "canonical_role": "amendment_evidence",
       "chunks": 4,
       "characters": 4937
+    },
+    {
+      "document_id": "migration_amendment_student_visa_reform_F2026L01347",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 6,
+      "characters": 8978
+    },
+    {
+      "document_id": "migration_student_visa_offshore_classes_F2026L01348",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 3,
+      "characters": 4080
+    },
+    {
+      "document_id": "migration_class_TU_student_visa_F2026L01349",
+      "corpus": "main",
+      "document_status": "CURRENT",
+      "canonical_role": "authoritative",
+      "chunks": 10,
+      "characters": 13921
     },
     {
       "document_id": "F2024L01618_subclass_186_current_compilation",

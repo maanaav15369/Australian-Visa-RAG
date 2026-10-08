@@ -26,8 +26,7 @@ def answer_question(query: str) -> str:
     results = store.search(
         query_embedding=embedder.embed_query(query),
         query_text=query,
-        top_k=3,
-        where={"corpus": "main"},
+        top_k=5,
     )
 
     return generator.answer(

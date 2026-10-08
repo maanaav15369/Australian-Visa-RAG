@@ -34,6 +34,9 @@ for d in docs:
     elif d.get("document_id") == "visa_list_homeaffairs_2026-10-01":
         d["retrieval_role"] = "evidence"
 
+    elif d.get("status") == "HISTORICAL_SNAPSHOT":
+        d["retrieval_role"] = "evidence"
+
     elif d.get("status") == "CURRENT_METADATA_ONLY":
         d["retrieval_role"] = "evidence"
 

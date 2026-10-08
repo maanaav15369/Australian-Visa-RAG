@@ -28,3 +28,4 @@ data/processed/
 # OS
 .DS_Store
 Thumbs.db
+data/chroma_pre_*/

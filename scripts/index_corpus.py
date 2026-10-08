@@ -34,7 +34,7 @@ def main() -> None:
 
     records = load_records()
 
-    expected = 1919
+    expected = 1938
     if len(records) != expected:
         raise RuntimeError(
             f"Expected {expected} chunks, but found {len(records)}."
@@ -55,19 +55,34 @@ def main() -> None:
 
     store = VectorStore()
 
-    existing = store.count()
-    if existing != 0:
+    existing_ids = set(
+        store.collection.get(include=[])["ids"]
+    )
+
+    expected_ids = {record["chunk_id"] for record in records}
+
+    unexpected_ids = existing_ids - expected_ids
+    if unexpected_ids:
         raise RuntimeError(
-            f"Chroma collection already contains {existing} vectors. "
-            "Refusing to overwrite."
+            f"Chroma contains {len(unexpected_ids)} vectors that are not "
+            "present in the current validated corpus."
         )
+
+    pending_records = [
+        record
+        for record in records
+        if record["chunk_id"] not in existing_ids
+    ]
+
+    print(f"Existing vectors: {len(existing_ids)}")
+    print(f"Pending vectors:  {len(pending_records)}")
 
     print("\nLoading embedding model...")
     embedder = Embedder()
 
     print("\nCreating embeddings...")
-    for start in range(0, len(records), EMBED_BATCH_SIZE):
-        batch = records[start:start + EMBED_BATCH_SIZE]
+    for start in range(0, len(pending_records), EMBED_BATCH_SIZE):
+        batch = pending_records[start:start + EMBED_BATCH_SIZE]
         texts = [record["text"] for record in batch]
 
         embeddings = embedder.embed_documents(texts)
