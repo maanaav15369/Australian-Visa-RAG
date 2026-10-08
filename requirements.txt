@@ -5,3 +5,5 @@ sentence-transformers==6.1.0
 torch==2.14.1+cpu
 streamlit==1.64.0
 cohere>=5.20.0
+
+pytest==9.1.1
