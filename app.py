@@ -54,9 +54,9 @@ with st.sidebar:
 
 **Current indexed corpus**
 
-- 1,610 main chunks
-- 309 evidence chunks
-- 1,919 total vectors
+- 1,618 main chunks
+- 320 evidence chunks
+- 1,938 total vectors
 - C288 consolidated legislation
 - Current Home Affairs visa-list snapshot
         """
