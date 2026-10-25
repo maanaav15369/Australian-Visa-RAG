@@ -3,6 +3,7 @@ from fastapi.testclient import TestClient
 
 import api.main as api_main
 from visa_intel.citations import FALLBACK_TEXT
+from visa_intel.conversation_store import ConversationStore
 
 RESULTS = {
     "ids": [["c1", "c2"]],
@@ -32,8 +33,10 @@ class FakeStore:
 class FakeGenerator:
     def __init__(self, text, error):
         self.text, self.error = text, error
+        self.histories = []
 
-    def answer(self, query, results):
+    def answer(self, query, results, history=None):
+        self.histories.append(history or [])
         if self.error:
             raise self.error
         return self.text
@@ -50,15 +53,14 @@ class FakeTimeoutError(Exception):
 
 
 @pytest.fixture
-def make_client():
+def make_client(monkeypatch):
     def _make(text="Test answer. [S1]", error=None):
         store = FakeStore()
         components = (FakeEmbedder(), store, FakeGenerator(text, error))
-        api_main.app.dependency_overrides[api_main.get_components] = lambda: components
+        monkeypatch.setattr(api_main, "get_components", lambda: components)
         return TestClient(api_main.app), store
 
-    yield _make
-    api_main.app.dependency_overrides.clear()
+    return _make
 
 
 def test_old_style_request_still_works(make_client):
@@ -165,3 +167,171 @@ def test_failed_warmup_does_not_stop_the_server(monkeypatch):
     monkeypatch.setattr(api_main, "load_components", boom)
     with TestClient(api_main.app) as client:
         assert client.get("/health").status_code == 200
+
+
+def test_greeting_does_not_load_components(monkeypatch):
+    def unexpected_component_load():
+        pytest.fail("Greeting should bypass RAG component loading.")
+
+    monkeypatch.setattr(api_main, "get_components", unexpected_component_load)
+    response = TestClient(api_main.app).post(
+        "/chat", json={"question": "Hii"}
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["status"] == "conversation"
+    assert body["answer"].startswith("Hi!")
+    assert body["citations"] == []
+    assert body["disclaimer"] == ""
+
+
+def test_greeting_with_immigration_question_uses_rag(make_client):
+    client, store = make_client()
+    response = client.post(
+        "/chat",
+        json={"question": "Hi, what is a Student visa?"},
+    )
+
+    assert response.status_code == 200
+    assert response.json()["status"] == "answered"
+    assert store.calls == 1
+
+
+def test_counsellor_planning_asks_one_follow_up_without_rag(monkeypatch):
+    def unexpected_component_load():
+        pytest.fail("Broad planning response should bypass RAG.")
+
+    monkeypatch.setattr(api_main, "get_components", unexpected_component_load)
+    response = TestClient(api_main.app).post(
+        "/chat",
+        json={
+            "question": (
+                "I am thinking about studying in Australia, but I do not "
+                "know where to start. Can you guide me?"
+            )
+        },
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["status"] == "conversation"
+    assert "what level of study are you considering" in body["answer"].lower()
+    assert body["citations"] == []
+    assert body["disclaimer"] == ""
+
+
+def test_specific_study_requirements_still_use_rag(make_client):
+    client, store = make_client()
+    response = client.post(
+        "/chat",
+        json={
+            "question": (
+                "I want to study in Australia. "
+                "What are the Student visa requirements?"
+            )
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.json()["status"] == "answered"
+    assert store.calls == 1
+
+
+
+def test_conversation_history_is_passed_and_isolated(monkeypatch):
+    generator = FakeGenerator("Test answer. [S1]", None)
+    store = FakeStore()
+    monkeypatch.setattr(
+        api_main, "get_components",
+        lambda: (FakeEmbedder(), store, generator),
+    )
+    monkeypatch.setattr(api_main, "_CONVERSATIONS", ConversationStore())
+
+    with TestClient(api_main.app) as client:
+        first = client.post("/chat", json={
+            "question": "What is a Student visa?",
+            "conversation_id": "conversation_a",
+        })
+        second = client.post("/chat", json={
+            "question": "What are the next steps?",
+            "conversation_id": "conversation_a",
+        })
+        separate = client.post("/chat", json={
+            "question": "What is a Student visa?",
+            "conversation_id": "conversation_b",
+        })
+
+    assert first.status_code == second.status_code == separate.status_code == 200
+    assert generator.histories[0] == []
+    assert generator.histories[1] == [
+        {"role": "user", "content": "What is a Student visa?"},
+        {"role": "assistant", "content": "Test answer. [S1]"},
+    ]
+    assert generator.histories[2] == []
+def test_uk_follow_up_is_rejected_instead_of_using_au_evidence(monkeypatch):
+    generator = FakeGenerator("Australian answer. [S1]", None)
+    store = FakeStore()
+    monkeypatch.setattr(
+        api_main,
+        "get_components",
+        lambda: (FakeEmbedder(), store, generator),
+    )
+    monkeypatch.setattr(api_main, "_CONVERSATIONS", ConversationStore())
+
+    with TestClient(api_main.app) as client:
+        first = client.post(
+            "/chat",
+            json={
+                "question": "I want to study in the UK. Can you guide me?",
+                "conversation_id": "uk_follow_up_test",
+            },
+        )
+        follow_up = client.post(
+            "/chat",
+            json={
+                "question": "What about the visa fees?",
+                "conversation_id": "uk_follow_up_test",
+            },
+        )
+
+    assert first.status_code == 200
+    assert first.json()["status"] == "conversation"
+    assert follow_up.status_code == 422
+    assert follow_up.json()["code"] == "jurisdiction_unavailable"
+    assert store.calls == 0
+
+
+def test_explicit_australia_question_can_change_conversation_context(
+    monkeypatch,
+):
+    generator = FakeGenerator("Australian answer. [S1]", None)
+    store = FakeStore()
+    monkeypatch.setattr(
+        api_main,
+        "get_components",
+        lambda: (FakeEmbedder(), store, generator),
+    )
+    monkeypatch.setattr(api_main, "_CONVERSATIONS", ConversationStore())
+
+    with TestClient(api_main.app) as client:
+        client.post(
+            "/chat",
+            json={
+                "question": "I want to study in the UK. Can you guide me?",
+                "conversation_id": "switch_country_test",
+            },
+        )
+        response = client.post(
+            "/chat",
+            json={
+                "question": (
+                    "For Australia, what are the Student visa requirements?"
+                ),
+                "conversation_id": "switch_country_test",
+            },
+        )
+
+    assert response.status_code == 200
+    assert response.json()["jurisdictions"] == ["AU"]
+    assert store.calls == 1

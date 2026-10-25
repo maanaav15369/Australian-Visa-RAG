@@ -3,7 +3,7 @@ import os
 from contextlib import asynccontextmanager
 from functools import lru_cache
 
-from fastapi import Depends, FastAPI
+from fastapi import FastAPI
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
@@ -11,18 +11,37 @@ from app.answer_generator import AnswerGenerator
 from app.embedder import Embedder
 from app.vector_store import VectorStore
 from visa_intel.citations import FALLBACK_TEXT, extract_citations, is_insufficient
+from visa_intel.conversation import (
+    detect_target_jurisdictions,
+    try_counsellor_intake_reply,
+    try_small_talk_reply,
+)
 from visa_intel.contracts import (
+    AVAILABLE_JURISDICTIONS,
     ChatRequest,
     ChatResponse,
     ErrorResponse,
+    Jurisdiction,
     JurisdictionUnavailable,
     ensure_available,
 )
 from visa_intel.timing import StageTimer
+from visa_intel.conversation_store import ConversationStore
 
 logger = logging.getLogger("visa_rag.api")
 
 _STATE = {"loaded": False}
+_CONVERSATIONS = ConversationStore()
+
+
+def _remember_turn(conversation_id, question, answer):
+    """Store only completed turns when a conversation ID is supplied."""
+    if not conversation_id:
+        return
+
+    _CONVERSATIONS.add_message(conversation_id, "user", question)
+    _CONVERSATIONS.add_message(conversation_id, "assistant", answer)
+
 
 
 class ComponentsUnavailable(Exception):
@@ -106,9 +125,25 @@ def health():
         "components_loaded": _STATE["loaded"],
     }
 
-
 @app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest, components=Depends(get_components)):
+def chat(request: ChatRequest):
+    target_codes = detect_target_jurisdictions(request.question)
+    selected_codes = {item.value for item in request.jurisdictions}
+    conversation_id = request.conversation_id
+
+    previous_code = (
+        _CONVERSATIONS.get_jurisdiction(conversation_id)
+        if conversation_id
+        else None
+    )
+
+    if target_codes:
+        effective_codes = target_codes
+    elif previous_code:
+        effective_codes = {previous_code}
+    else:
+        effective_codes = selected_codes
+
     ensure_available(request.jurisdictions)
 
     if request.as_of_date is not None:
@@ -119,6 +154,75 @@ def chat(request: ChatRequest, components=Depends(get_components)):
             "as_of_date is not supported yet; historical retrieval is not enabled.",
         )
 
+    # Load only this conversation's recent history.
+    history = (
+        _CONVERSATIONS.get_history(request.conversation_id)
+        if request.conversation_id
+        else []
+    )
+
+    # Handle simple social messages without loading or calling the RAG stack.
+    reply = try_small_talk_reply(request.question)
+    if reply is not None:
+        if request.conversation_id:
+            _CONVERSATIONS.set_jurisdiction(
+                request.conversation_id,
+                next(iter(effective_codes)),
+            )
+        _remember_turn(request.conversation_id, request.question, reply)
+        return ChatResponse(
+            answer=reply,
+            status="conversation",
+            jurisdictions=request.jurisdictions,
+            citations=[],
+            timings_ms={},
+            disclaimer="",
+        )
+
+    # Broad planning requests are conversational, not legal determinations.
+    reply = try_counsellor_intake_reply(request.question)
+    if reply is not None:
+        active_codes = target_codes or effective_codes
+        conversation_jurisdictions = [
+            Jurisdiction(code) for code in sorted(active_codes)
+        ]
+
+        if request.conversation_id:
+            _CONVERSATIONS.set_jurisdiction(
+                request.conversation_id,
+                next(iter(active_codes)),
+            )
+
+        _remember_turn(request.conversation_id, request.question, reply)
+        return ChatResponse(
+            answer=reply,
+            status="conversation",
+            jurisdictions=conversation_jurisdictions,
+            citations=[],
+            timings_ms={},
+            disclaimer="",
+        )
+
+    available_codes = {item.value for item in AVAILABLE_JURISDICTIONS}
+    unavailable_codes = sorted(effective_codes - available_codes)
+
+    if unavailable_codes:
+        return _error(
+            422,
+            "jurisdiction_unavailable",
+            "No indexed evidence yet for: " + ", ".join(unavailable_codes),
+        )
+
+    if effective_codes != selected_codes:
+        return _error(
+            422,
+            "invalid_request",
+            "The conversation targets a different jurisdiction. "
+            "Select it explicitly to switch destinations.",
+        )
+
+    # Load components only when the message needs immigration evidence.
+    components = get_components()
     embedder, store, generator = components
     # Only AU is available, so exactly one jurisdiction reaches this point.
     jurisdiction = request.jurisdictions[0]
@@ -136,7 +240,11 @@ def chat(request: ChatRequest, components=Depends(get_components)):
 
     try:
         with timer.stage("generate"):
-            answer = generator.answer(query=request.question, results=results)
+            answer = generator.answer(
+                query=request.question,
+                results=results,
+                history=history,
+            )
     except Exception as exc:
         logger.warning("Answer generation failed: %s", type(exc).__name__)
         status, code, message = _classify_upstream(exc)
@@ -154,6 +262,14 @@ def chat(request: ChatRequest, components=Depends(get_components)):
 
     timings = timer.as_dict()
     timings["stages_total"] = timer.total_ms()
+
+    if request.conversation_id:
+        _CONVERSATIONS.set_jurisdiction(
+            request.conversation_id,
+            next(iter(effective_codes)),
+        )
+
+    _remember_turn(request.conversation_id, request.question, answer)
 
     return ChatResponse(
         answer=answer,

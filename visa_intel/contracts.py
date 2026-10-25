@@ -23,6 +23,7 @@ class Jurisdiction(str, Enum):
     CA = "CA"
     NZ = "NZ"
     US = "US"
+    GB = "GB"  # United Kingdom (UK)
 
 
 # Only add a code here once its collection exists AND its isolation tests pass.
@@ -105,7 +106,7 @@ class Citation(BaseModel):
 
 class ChatResponse(BaseModel):
     answer: str
-    status: Literal["answered", "insufficient_evidence"]
+    status: Literal["answered", "insufficient_evidence", "conversation"]
     jurisdictions: list[Jurisdiction]
     as_of_date: date | None = None
     citations: list[Citation] = Field(default_factory=list)
