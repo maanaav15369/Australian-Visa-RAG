@@ -5,7 +5,7 @@ cd "$(dirname "$0")/.."
 
 case "${1:-}" in
   test)     python -m pytest -q ;;
-  fast)     python -m pytest -q tests/test_api_contract.py ;;
+  fast)     python -m pytest -q tests/test_api_contract.py tests/test_citations.py ;;
   api)      uvicorn api.main:app --reload ;;
   ui)       streamlit run app.py --server.fileWatcherType none ;;
   baseline) python ~/baseline_latency.py --runs 20 ;;
